@@ -1,19 +1,20 @@
 # airr-react
 
-This library is set of several React components that helps building Single Page Apps for desktop and mobile apps aswell.  
-airr-react defines few basic UI classes and features that every app needs. The core component is resposible for maintaining navigation in the app.
-All of it when minified and gzipped weights only ~13.5kB ([bundlephobia.com](https://bundlephobia.com/result?p=airr-react@2.0.20)).  
+This library is a collection of React components that help build Single Page Apps for desktop and mobile.  
+airr-react defines a few basic UI classes and features that every app needs. The core component is responsible for maintaining navigation in the app.
 
-Library can be used for:
+When minified and gzipped, the library weights only ~13.5kB ([bundlephobia.com](https://bundlephobia.com/result?p=airr-react@2.0.20)).  
 
-*   creating unique looking and behaving apps,
-*   rapidly designing prototypes showing your ideas,
-*   creating responsive apps that will handle mobile and desktop rendering.
+This library can be used for:
 
-To check all main features please go and see demonstration app:
+*   Creating unique looking and behaving apps
+*   Rapidly designing prototypes showing your ideas
+*   Creating responsive apps that will handle mobile and desktop rendering
+
+To check all the main features, please go and see demonstration app:
 **[Mobile Demo App](http://react.airr.pl)**
 
-and for documentation (still uncomplete) and intreactive examples check:
+and for documentation (still uncomplete) and intreactive examples, check:
 **[Storybook](http://react.airr.pl/storybook)**
 
 
@@ -27,15 +28,16 @@ npm install airr-react
 
 ### The demo
 
-If you want to explore demo app as a code refference just download `demo-app` directory content, open your system console and execute standard installation and start commands on this directory:
+If you want to explore the demo app, download the `demo-app` directory, open your system console and execute standard installation and start commands from this directory:
 
 ```
 npm install;
 npm start;
 ```
+
 ## Example
 
-Here's a simple code usage that provides a viewport with two views. 
+Here's a simple example that provides a viewport with two views. 
 
 [![Edit airr-react-example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/pz83nwo50) 
 
@@ -129,10 +131,11 @@ ReactDOM.render(<Viewport />, rootElement);
 
 ## Airr Components life-cycles
 
-Airr library provides easy to implement app views life-cycles methods.
-When you are dealing with app development you have to deal with many tasks before or after certain view is activated and animated into the screen.
+Airr library provides easy to implement app views and life-cycles methods.
 
-Like Reacts `componentDidMount` method, Airr provides self explanatory methods that can be used by Components that extends `ViewWrapper` and `SceneWrapper` components. These methods are:
+When you are dealing with app development, you have to deal with many tasks before or after certain view are activated and animated onto the screen.
+
+Like React's `componentDidMount` method, Airr provides self explanatory methods that can be used by components that extend `ViewWrapper` and `SceneWrapper` components. These methods are:
 
 *   `viewBeforeActivation`
 *   `viewAfterActivation`
